@@ -24,6 +24,26 @@ public static class RequestData
         public const string XPrototypeVersion = "1.7_rc2"; // "X-Prototype-Version"
         public const string XRequestedWith = "XMLHttpRequest"; // "X-Requested-With"
 
+        public static readonly Dictionary<string, string> RequestHeaders = new()
+        {
+            { "Accept", "application/json" },
+            { "Accept-Encoding", "gzip, deflate, br, zstd" },
+            { "Accept-Language", "en-US,en;q=0.5" },
+            { "Connection", "keep-alive" },
+            //{ "Content-Length", "3381" },
+            //{ "Content-Type", "application/x-www-form-urlencoded; charset=UTF-8" },
+            //{ "Cookie", "_marblerunv2_session=BAh7B..." },
+            { "Host", "www.marblerun.at" },
+            { "Origin", "https://www.marblerun.at" },
+            { "Priority", "u=0" },
+            { "Referer", "https://www.marblerun.at/" },
+            { "Sec-Fetch-Dest", "empty" },
+            { "Sec-Fetch-Mode", "cors" },
+            { "Sec-Fetch-Site", "same-origin" },
+            { "User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" },
+            { "X-Prototype-Version", "1.7_rc2" },
+            { "X-Requested-With", "XMLHttpRequest" }
+        };
     }
 
     public static class TrackData

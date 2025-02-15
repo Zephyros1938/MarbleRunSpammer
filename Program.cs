@@ -10,7 +10,7 @@ namespace Zephyros1938.Marblerun;
 
 public class Program
 {
-    static MarbleRunContents.Trackdata trackdata = new MarbleRunContents.Trackdata(duration: 10000, trackname: "ITER.", username: "ZEPHYROS1938");
+    static MarbleRunContents.Trackdata trackdata = new MarbleRunContents.Trackdata(duration: 1073741824, trackname: "ITER.", username: "ZEPHYROS1938");
     public static async Task Main(String[] args)
     {
         if (args.Length < 1) throw new ArgumentException("Must specify repetition count.");

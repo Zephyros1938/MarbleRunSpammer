@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 namespace Zephyros1938.Marblerun;
-public static class RequestData
+public static class Constants
 {
     public static class Headers
     {

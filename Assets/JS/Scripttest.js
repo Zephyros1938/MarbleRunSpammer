@@ -1,0 +1,1 @@
+console.log("HahaGetSpammed!");onclick(()=>{window.location.href="https://github.com/Zephyros1938/MarbleRunSpammer";});
